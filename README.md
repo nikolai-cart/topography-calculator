@@ -53,33 +53,33 @@ py Coordinate.py
 
 - Для дробных чисел используйте точку: `55.75`.
 - Координаты X и Y и расстояния вводятся в метрах.
-- В режимах 4 и 5 вводите полный Y с номером зоны.
+- В режимах 5 и 6 вводите полный Y с номером зоны.
 - Следуйте подсказкам о знаках и единицах измерения.
-- В режиме 12 буква пояса — латинская, буквы подразделений АБВГ — русские.
+- В режиме 13 буква пояса — латинская, буквы подразделений АБВГ — русские.
 - Маленькая буква пояса обозначает южное полушарие по принятой в проекте convention.
 
 Use a decimal point, enter distances and X/Y coordinates in metres,
 and follow the prompts for signs and units.
-Modes 4 and 5 require the full Y coordinate including the zone number.
-In mode 12, use a Latin latitude-band letter and Cyrillic subdivision
+Modes 5 and 6 require the full Y coordinate including the zone number.
+In mode 13, use a Latin latitude-band letter and Cyrillic subdivision
 letters. A lowercase band letter denotes the Southern Hemisphere
 in this project.
 
 ## Ограничения / Limitations
 
-- Режимы 3 и 4 используют учебное приближение через 111 км на градус
+- Режимы 4 и 5 используют учебное приближение через 111 км на градус
   и косинус широты, а не точное преобразование Гаусса — Крюгера.
-- Режим 6 использует приближённую формулу сближения меридианов.
-- Режим 8 предполагает постоянное годовое изменение склонения,
+- Режим 7 использует приближённую формулу сближения меридианов.
+- Режим 9 предполагает постоянное годовое изменение склонения,
   введённое пользователем; геомагнитная модель не используется.
-- В режиме 11 начиная с 84° по модулю реализован только миллионный масштаб.
-- Режим 12 рассчитывает одинарные листы и не учитывает объединение
+- В режиме 12 начиная с 84° по модулю реализован только миллионный масштаб.
+- Режим 13 рассчитывает одинарные листы и не учитывает объединение
   листов на высоких широтах; полярные листы Z/z не поддерживаются.
 - Обработка ошибочного ввода пока неполная.
 
-Modes 3, 4 and 6 use educational approximations.
-Mode 8 applies a user-provided constant annual declination change.
-Mode 11 supports only the million-scale sheet at absolute latitudes
-of 84° and above. Mode 12 handles single sheets without high-latitude
+Modes 4, 5 and 7 use educational approximations.
+Mode 9 applies a user-provided constant annual declination change.
+Mode 12 supports only the million-scale sheet at absolute latitudes
+of 84° and above. Mode 13 handles single sheets without high-latitude
 grouping and does not support polar sheets Z/z.
 Input validation is incomplete.
