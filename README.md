@@ -11,6 +11,7 @@ The program interface is in Russian.
 
 | № | Режим | Feature |
 |---|---|---|
+| 1 | Калькулятор градусов, минут, секунд (сложение и вычитание) | Degrees, minutes, seconds calculator |
 | 1 | Градусы, минуты, секунды → десятичные градусы | DMS → decimal degrees |
 | 2 | Десятичные градусы → градусы, минуты, секунды | Decimal degrees → DMS |
 | 3 | Широта и долгота → приближённые X, Y | Latitude/longitude → approximate X, Y |
